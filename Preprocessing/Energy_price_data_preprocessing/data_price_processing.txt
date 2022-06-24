@@ -1,0 +1,209 @@
+04-24 18:47 data_functions INFO     ###############################################################################################################################################################
+04-24 18:47 __main__     INFO     This file will log the progress of the data merging + cleaning + imputing
+04-24 18:47 data_functions INFO     ###############################################################################################################################################################
+04-24 18:47 data_merging INFO     Merging of data: 
+04-24 18:47 data_functions INFO     ###############################################################################################################################################################
+04-24 18:47 data_merging INFO     ----------------------------
+04-24 18:47 data_merging INFO     Merging Nordpool data source:
+04-24 18:47 data_merging INFO     ----------------------------
+04-24 18:47 nordpool_merging INFO     For each Nordpool feature, we aggregate all the yearly xls files into a single csv with all data combined. This is quite time-consuming, so please have patience ;)
+04-24 18:47 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/archive
+04-24 18:47 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/consumption
+04-24 18:47 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/elbas_initial_capacity_hourly
+04-24 18:48 nordpool_merging INFO     Merged the following files together: ['elbas-initial-capacity_2013_hourly.xls', 'elbas-initial-capacity_2014_hourly.xls', 'elbas-initial-capacity_2015_hourly.xls', 'elbas-initial-capacity_2016_hourly.xls', 'elbas-initial-capacity_2017_hourly.xls', 'elbas-initial-capacity_2018_hourly.xls', 'elbas-initial-capacity_2019_hourly.xls', 'elbas-initial-capacity_2020_hourly.xls', 'elbas-initial-capacity_2021_hourly.xls', 'elbas-initial-capacity_2022_hourly.xls']
+04-24 18:48 nordpool_merging INFO     concat_elbas_initial_capacity_hourly.csv created successfully by over-writing previous existing one
+04-24 18:48 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/elbas_volume_daily
+04-24 18:48 nordpool_merging INFO     Merged the following files together: ['elbas-volumes_2013_daily.xls', 'elbas-volumes_2014_daily.xls', 'elbas-volumes_2015_daily.xls', 'elbas-volumes_2016_daily.xls', 'elbas-volumes_2017_daily.xls', 'elbas-volumes_2018_daily.xls', 'elbas-volumes_2019_daily.xls', 'elbas-volumes_2020_daily.xls', 'elbas-volumes_2021_daily.xls', 'elbas-volumes_2022_daily.xls']
+04-24 18:48 nordpool_merging INFO     concat_elbas_volume_daily.csv created successfully by over-writing previous existing one
+04-24 18:48 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/elspot_capacities_hourly
+04-24 18:48 nordpool_merging INFO     Merged the following files together: ['elspot-capacities-no_2013_hourly.xls', 'elspot-capacities-no_2014_hourly.xls', 'elspot-capacities-no_2015_hourly.xls', 'elspot-capacities-no_2016_hourly.xls', 'elspot-capacities-no_2017_hourly.xls', 'elspot-capacities-no_2018_hourly.xls', 'elspot-capacities-no_2019_hourly.xls', 'elspot-capacities-no_2020_hourly.xls', 'elspot-capacities-no_2021_hourly.xls', 'elspot-capacities-no_2022_hourly.xls']
+04-24 18:48 nordpool_merging INFO     concat_elspot_capacities_hourly.csv created successfully by over-writing previous existing one
+04-24 18:48 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/elspot_prices_EUR_daily
+04-24 18:48 nordpool_merging INFO     Merged the following files together: ['elspot-prices_2013_daily_eur.xls', 'elspot-prices_2014_daily_eur.xls', 'elspot-prices_2015_daily_eur.xls', 'elspot-prices_2016_daily_eur.xls', 'elspot-prices_2017_daily_eur.xls', 'elspot-prices_2018_daily_eur.xls', 'elspot-prices_2019_daily_eur.xls', 'elspot-prices_2020_daily_eur.xls', 'elspot-prices_2021_daily_eur.xls', 'elspot-prices_2022_daily_eur.xls']
+04-24 18:48 nordpool_merging INFO     concat_elspot_prices_EUR_daily.csv created successfully by over-writing previous existing one
+04-24 18:48 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/elspot_prices_EUR_hourly
+04-24 18:49 nordpool_merging INFO     Merged the following files together: ['elspot-prices_2012_hourly_eur.xls', 'elspot-prices_2013_hourly_eur.xls', 'elspot-prices_2014_hourly_eur.xls', 'elspot-prices_2015_hourly_eur.xls', 'elspot-prices_2016_hourly_eur.xls', 'elspot-prices_2017_hourly_eur.xls', 'elspot-prices_2018_hourly_eur.xls', 'elspot-prices_2019_hourly_eur.xls', 'elspot-prices_2020_hourly_eur.xls', 'elspot-prices_2021_hourly_eur.xls', 'elspot-prices_2022_hourly_eur.xls']
+04-24 18:49 nordpool_merging INFO     concat_elspot_prices_EUR_hourly.csv created successfully by over-writing previous existing one
+04-24 18:49 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/elspot_volumes
+04-24 18:49 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/hydro_reservoir
+04-24 18:49 nordpool_merging INFO     concat_hydro_reservoir_weekly.csv created successfully by over-writing previous existing one
+04-24 18:49 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/production
+04-24 18:49 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/regulating_prices_EUR_hourly
+04-24 18:49 nordpool_merging INFO     Merged the following files together: ['regulating-prices_2013_hourly_eur.xls', 'regulating-prices_2014_hourly_eur.xls', 'regulating-prices_2015_hourly_eur.xls', 'regulating-prices_2016_hourly_eur.xls', 'regulating-prices_2017_hourly_eur.xls', 'regulating-prices_2018_hourly_eur.xls', 'regulating-prices_2019_hourly_eur.xls', 'regulating-prices_2020_hourly_eur.xls', 'regulating-prices_2021_hourly_eur.xls', 'regulating-prices_2022_hourly_eur.xls']
+04-24 18:49 nordpool_merging INFO     concat_regulating_prices_EUR_hourly.csv created successfully by over-writing previous existing one
+04-24 18:49 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/unused_data
+04-24 18:49 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/consumption/consumption_no_daily
+04-24 18:49 nordpool_merging INFO     Merged the following files together: ['consumption-no-areas_2013_daily.xls', 'consumption-no-areas_2014_daily.xls', 'consumption-no-areas_2015_daily.xls', 'consumption-no-areas_2016_daily.xls', 'consumption-no-areas_2017_daily.xls', 'consumption-no-areas_2018_daily.xls', 'consumption-no-areas_2019_daily.xls', 'consumption-no-areas_2020_daily.xls', 'consumption-no-areas_2021_daily.xls', 'consumption-no-areas_2022_daily.xls']
+04-24 18:49 nordpool_merging INFO     concat_consumption_no_daily.csv created successfully by over-writing previous existing one
+04-24 18:49 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/consumption/consumption_no_hourly
+04-24 18:49 nordpool_merging INFO     Merged the following files together: ['consumption-no-areas_2013_hourly.xls', 'consumption-no-areas_2014_hourly.xls', 'consumption-no-areas_2015_hourly.xls', 'consumption-no-areas_2016_hourly.xls', 'consumption-no-areas_2017_hourly.xls', 'consumption-no-areas_2018_hourly.xls', 'consumption-no-areas_2019_hourly.xls', 'consumption-no-areas_2020_hourly.xls', 'consumption-no-areas_2021_hourly.xls', 'consumption-no-areas_2022_hourly.xls']
+04-24 18:49 nordpool_merging INFO     concat_consumption_no_hourly.csv created successfully by over-writing previous existing one
+04-24 18:49 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/consumption/consumption_prognosis_no_hourly
+04-24 18:49 nordpool_merging INFO     Merged the following files together: ['consumption-prognosis_2013_hourly.xls', 'consumption-prognosis_2014_hourly.xls', 'consumption-prognosis_2015_hourly.xls', 'consumption-prognosis_2016_hourly.xls', 'consumption-prognosis_2017_hourly.xls', 'consumption-prognosis_2018_hourly.xls', 'consumption-prognosis_2019_hourly.xls', 'consumption-prognosis_2020_hourly.xls', 'consumption-prognosis_2021_hourly.xls', 'consumption-prognosis_2022_hourly.xls']
+04-24 18:49 nordpool_merging INFO     concat_consumption_prognosis_no_hourly.csv created successfully by over-writing previous existing one
+04-24 18:49 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/elspot_volumes/elspot_volumes_daily
+04-24 18:49 nordpool_merging INFO     Merged the following files together: ['elspot-volumes_2013_daily.xls', 'elspot-volumes_2014_daily.xls', 'elspot-volumes_2015_daily.xls', 'elspot-volumes_2016_daily.xls', 'elspot-volumes_2017_daily.xls', 'elspot-volumes_2018_daily.xls', 'elspot-volumes_2019_daily.xls', 'elspot-volumes_2020_daily.xls', 'elspot-volumes_2021_daily.xls', 'elspot-volumes_2022_daily.xls']
+04-24 18:49 nordpool_merging INFO     concat_elspot_volumes_daily.csv created successfully by over-writing previous existing one
+04-24 18:49 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/elspot_volumes/elspot_volumes_hourly
+04-24 18:50 nordpool_merging INFO     Merged the following files together: ['elspot-volumes_2013_hourly.xls', 'elspot-volumes_2014_hourly.xls', 'elspot-volumes_2015_hourly.xls', 'elspot-volumes_2016_hourly.xls', 'elspot-volumes_2017_hourly.xls', 'elspot-volumes_2018_hourly.xls', 'elspot-volumes_2019_hourly.xls', 'elspot-volumes_2020_hourly.xls', 'elspot-volumes_2021_hourly.xls', 'elspot-volumes_2022_hourly.xls']
+04-24 18:50 nordpool_merging INFO     concat_elspot_volumes_hourly.csv created successfully by over-writing previous existing one
+04-24 18:50 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/production/production_no_daily
+04-24 18:50 nordpool_merging INFO     Merged the following files together: ['production-no-areas_2013_daily.xls', 'production-no-areas_2014_daily.xls', 'production-no-areas_2015_daily.xls', 'production-no-areas_2016_daily.xls', 'production-no-areas_2017_daily.xls', 'production-no-areas_2018_daily.xls', 'production-no-areas_2019_daily.xls', 'production-no-areas_2020_daily.xls', 'production-no-areas_2021_daily.xls', 'production-no-areas_2022_daily.xls']
+04-24 18:50 nordpool_merging INFO     concat_production_no_daily.csv created successfully by over-writing previous existing one
+04-24 18:50 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/production/production_no_hourly
+04-24 18:50 nordpool_merging INFO     Merged the following files together: ['production-no-areas_2013_hourly.xls', 'production-no-areas_2014_hourly.xls', 'production-no-areas_2015_hourly.xls', 'production-no-areas_2016_hourly.xls', 'production-no-areas_2017_hourly.xls', 'production-no-areas_2018_hourly.xls', 'production-no-areas_2019_hourly.xls', 'production-no-areas_2020_hourly.xls', 'production-no-areas_2021_hourly.xls', 'production-no-areas_2022_hourly.xls']
+04-24 18:50 nordpool_merging INFO     concat_production_no_hourly.csv created successfully by over-writing previous existing one
+04-24 18:50 nordpool_merging INFO     Scanning folder ../../data/raw_data/NordPool_data/production/production_prognosis_no_hourly
+04-24 18:50 nordpool_merging INFO     Merged the following files together: ['production-prognosis_2013_hourly.xls', 'production-prognosis_2014_hourly.xls', 'production-prognosis_2015_hourly.xls', 'production-prognosis_2016_hourly.xls', 'production-prognosis_2017_hourly.xls', 'production-prognosis_2018_hourly.xls', 'production-prognosis_2019_hourly.xls', 'production-prognosis_2020_hourly.xls', 'production-prognosis_2021_hourly.xls', 'production-prognosis_2022_hourly.xls']
+04-24 18:50 nordpool_merging INFO     concat_production_prognosis_no_hourly.csv created successfully by over-writing previous existing one
+04-24 18:50 nordpool_merging INFO     We skipped the following folders: ['archive', 'unused_data', 'archive', '.ipynb_checkpoints', 'unused_data', 'elbas_volume_hourly', 'elspot_prices', 'elspot_prices_no_daily', 'elspot_prices_no_hourly', 'possible_dupes', 'elspot_hourly_prices_data_dkk', 'hourly_dkk', 'elspot_prices_EUR_monthly', 'elspot_prices_EUR_weekly', 'exchange_rates', 'regulating_prices']
+04-24 18:50 nordpool_merging INFO     Finished Nordpool yearly aggregation
+04-24 18:50 nordpool_merging INFO     ----------------------------------------------------------
+04-24 18:50 data_merging INFO     Found 21 all csvs:
+04-24 18:50 data_merging INFO     ['concat_consumption_no_daily.csv', 'concat_consumption_no_hourly.csv', 'concat_consumption_prognosis_no_agg_daily.csv', 'concat_consumption_prognosis_no_hourly.csv', 'concat_elbas_initial_capacity_agg_daily.csv', 'concat_elbas_initial_capacity_hourly.csv', 'concat_elbas_volume_daily.csv', 'concat_elspot_capacities_agg_daily.csv', 'concat_elspot_capacities_hourly.csv', 'concat_elspot_prices_EUR_daily.csv', 'concat_elspot_prices_EUR_hourly.csv', 'concat_elspot_volumes_daily.csv', 'concat_elspot_volumes_hourly.csv', 'concat_hydro_reservoir_weekly.csv', 'concat_production_no_daily.csv', 'concat_production_no_hourly.csv', 'concat_production_prognosis_no_agg_daily.csv', 'concat_production_prognosis_no_hourly.csv', 'concat_regulating_prices_EUR_agg_daily.csv', 'concat_regulating_prices_EUR_hourly.csv', 'Nordpool_data_merged.csv']
+04-24 18:50 data_merging INFO     Found 10 daily csvs:
+04-24 18:50 data_merging INFO     ['concat_consumption_no_daily.csv', 'concat_consumption_prognosis_no_agg_daily.csv', 'concat_elbas_initial_capacity_agg_daily.csv', 'concat_elbas_volume_daily.csv', 'concat_elspot_capacities_agg_daily.csv', 'concat_elspot_prices_EUR_daily.csv', 'concat_elspot_volumes_daily.csv', 'concat_production_no_daily.csv', 'concat_production_prognosis_no_agg_daily.csv', 'concat_regulating_prices_EUR_agg_daily.csv']
+04-24 18:50 data_merging INFO     Found 9 hourly csvs:
+04-24 18:50 data_merging INFO     ['concat_consumption_no_hourly.csv', 'concat_consumption_prognosis_no_hourly.csv', 'concat_elbas_initial_capacity_hourly.csv', 'concat_elspot_capacities_hourly.csv', 'concat_elspot_prices_EUR_hourly.csv', 'concat_elspot_volumes_hourly.csv', 'concat_production_no_hourly.csv', 'concat_production_prognosis_no_hourly.csv', 'concat_regulating_prices_EUR_hourly.csv']
+04-24 18:50 data_merging INFO     We skipped hourly file concat_elspot_prices_EUR_hourly.csv since there is already a non-aggregated daily csv in the folder!
+04-24 18:50 data_merging INFO     We converted the following 5 files from hourly csvs to daily csvs:
+04-24 18:50 data_merging INFO     {'concat_elbas_initial_capacity_hourly.csv', 'concat_production_prognosis_no_hourly.csv', 'concat_consumption_prognosis_no_hourly.csv', 'concat_elspot_capacities_hourly.csv', 'concat_regulating_prices_EUR_hourly.csv'}
+04-24 18:50 data_merging INFO     Found 21 all csvs:
+04-24 18:50 data_merging INFO     ['concat_consumption_no_daily.csv', 'concat_consumption_no_hourly.csv', 'concat_consumption_prognosis_no_agg_daily.csv', 'concat_consumption_prognosis_no_hourly.csv', 'concat_elbas_initial_capacity_agg_daily.csv', 'concat_elbas_initial_capacity_hourly.csv', 'concat_elbas_volume_daily.csv', 'concat_elspot_capacities_agg_daily.csv', 'concat_elspot_capacities_hourly.csv', 'concat_elspot_prices_EUR_daily.csv', 'concat_elspot_prices_EUR_hourly.csv', 'concat_elspot_volumes_daily.csv', 'concat_elspot_volumes_hourly.csv', 'concat_hydro_reservoir_weekly.csv', 'concat_production_no_daily.csv', 'concat_production_no_hourly.csv', 'concat_production_prognosis_no_agg_daily.csv', 'concat_production_prognosis_no_hourly.csv', 'concat_regulating_prices_EUR_agg_daily.csv', 'concat_regulating_prices_EUR_hourly.csv', 'Nordpool_data_merged.csv']
+04-24 18:50 data_merging INFO     Found 10 daily csvs:
+04-24 18:50 data_merging INFO     ['concat_consumption_no_daily.csv', 'concat_consumption_prognosis_no_agg_daily.csv', 'concat_elbas_initial_capacity_agg_daily.csv', 'concat_elbas_volume_daily.csv', 'concat_elspot_capacities_agg_daily.csv', 'concat_elspot_prices_EUR_daily.csv', 'concat_elspot_volumes_daily.csv', 'concat_production_no_daily.csv', 'concat_production_prognosis_no_agg_daily.csv', 'concat_regulating_prices_EUR_agg_daily.csv']
+04-24 18:50 data_merging INFO     Found 9 hourly csvs:
+04-24 18:50 data_merging INFO     ['concat_consumption_no_hourly.csv', 'concat_consumption_prognosis_no_hourly.csv', 'concat_elbas_initial_capacity_hourly.csv', 'concat_elspot_capacities_hourly.csv', 'concat_elspot_prices_EUR_hourly.csv', 'concat_elspot_volumes_hourly.csv', 'concat_production_no_hourly.csv', 'concat_production_prognosis_no_hourly.csv', 'concat_regulating_prices_EUR_hourly.csv']
+04-24 18:50 data_merging INFO     Using only daily csvs to merge Nordpool data.
+04-24 18:50 data_merging INFO     For Nordpool file concat_elbas_initial_capacity_agg_daily.csv, we found the following features with  duplicated columns (extra columns with .1), so we merged them: ['NO1 > NO2', 'NO2 > NO1', 'NO1 > NO5', 'NO5 > NO1']
+04-24 18:50 data_merging INFO     For Nordpool file concat_elspot_capacities_agg_daily.csv, we found the following features with  duplicated columns (extra columns with .1), so we merged them: ['NO1 > NO2', 'NO2 > NO1', 'NO1 > NO5', 'NO5 > NO1', 'NO2 > NL', 'NL > NO2']
+04-24 18:50 data_merging INFO     For Nordpool file concat_elspot_prices_EUR_daily.csv, we found the following features with  duplicated columns (extra columns with .1), so we merged them: ['EE', 'LV', 'LT', 'AT', 'BE', 'DE-LU', 'FR', 'NL']
+04-24 18:50 data_merging INFO     For Nordpool file concat_regulating_prices_EUR_agg_daily.csv, we found the following features with  duplicated columns (extra columns with .1), so we merged them: ['Up', 'Down']
+04-24 18:50 data_merging INFO     Nordpool merged dataframe shape:
+04-24 18:50 data_merging INFO     (3360, 267)
+04-24 18:50 data_functions INFO     Dataframe for data source Nordpool merged and stored locally as csv!
+04-24 18:50 data_merging INFO     ----------------------------
+04-24 18:50 data_merging INFO     Merging Weather data source:
+04-24 18:50 data_merging INFO     ----------------------------
+04-24 18:50 data_merging INFO     Found 6 all csvs:
+04-24 18:50 data_merging INFO     ['precipitation.csv', 'Rain_and_snow_melting.csv', 'Relative_rain_and_snow-melt_contribution.csv', 'soil_saturation.csv', 'swe.csv', 'temperature.csv']
+04-24 18:50 data_merging INFO     Using all found csvs to merge Weather data.
+04-24 18:50 data_merging INFO     For df temperature.csv we found unnamed first column. We will ignore (delete) it.
+04-24 18:50 data_merging INFO     Weather merged dataframe shape:
+04-24 18:50 data_merging INFO     (3363, 31)
+04-24 18:50 data_functions INFO     Dataframe for data source Weather merged and stored locally as csv!
+04-24 18:50 data_merging INFO     ----------------------------
+04-24 18:50 data_merging INFO     Merging Elspot_GloH2OPast data source:
+04-24 18:50 data_merging INFO     ----------------------------
+04-24 18:50 data_merging INFO     Found 7 all csvs:
+04-24 18:50 data_merging INFO     ['GloH2O_precipitation_mswep_v280_daily.csv', 'GloH2O_precipitation_mswx_v100_daily.csv', 'GloH2O_relhum_daily.csv', 'GloH2O_SpecHum.csv', 'GloH2O_SWd_daily.csv', 'GloH2O_temp_daily.csv', 'GloH2O_wind strength_daily.csv']
+04-24 18:50 data_merging INFO     Found 6 daily csvs:
+04-24 18:50 data_merging INFO     ['GloH2O_precipitation_mswep_v280_daily.csv', 'GloH2O_precipitation_mswx_v100_daily.csv', 'GloH2O_relhum_daily.csv', 'GloH2O_SWd_daily.csv', 'GloH2O_temp_daily.csv', 'GloH2O_wind strength_daily.csv']
+04-24 18:50 data_merging INFO     Using all found csvs to merge Elspot_GloH2OPast data.
+04-24 18:50 data_merging INFO     For df GloH2O_SpecHum.csv we found unnamed first column. We will ignore (delete) it.
+04-24 18:50 data_merging INFO     Elspot_GloH2OPast merged dataframe shape:
+04-24 18:50 data_merging INFO     (3387, 31)
+04-24 18:50 data_functions INFO     Dataframe for data source Elspot_GloH2OPast merged and stored locally as csv!
+04-24 18:50 data_merging INFO     ----------------------------
+04-24 18:50 data_merging INFO     Merging Yahoo ETFs data source:
+04-24 18:50 data_merging INFO     ----------------------------
+04-24 18:50 data_merging INFO     Found 2 all csvs:
+04-24 18:50 data_merging INFO     ['SPGI.csv', 'XWD.TO.csv']
+04-24 18:50 data_merging INFO     Using all found csvs to merge Yahoo ETFs data.
+04-24 18:50 data_merging INFO     Yahoo ETFs merged dataframe shape:
+04-24 18:50 data_merging INFO     (2354, 3)
+04-24 18:50 data_functions INFO     Dataframe for data source Yahoo ETFs merged and stored locally as csv!
+04-24 18:50 data_merging INFO     ----------------------------
+04-24 18:50 data_merging INFO     Merging Commodities data source:
+04-24 18:50 data_merging INFO     ----------------------------
+04-24 18:50 data_merging INFO     Found 5 all csvs:
+04-24 18:50 data_merging INFO     ['Commodities_Brent_Oil.csv', 'Commodities_Coal.csv', 'Commodities_data_merged.csv', 'Commodities_Gas.csv', 'Commodities_Uranium.csv']
+04-24 18:50 data_merging INFO     Using all found csvs to merge Commodities data.
+04-24 18:50 data_merging INFO     Commodities merged dataframe shape:
+04-24 18:50 data_merging INFO     (2426, 5)
+04-24 18:50 data_functions INFO     Dataframe for data source Commodities merged and stored locally as csv!
+04-24 18:50 data_merging INFO     ------------------------
+04-24 18:50 data_merging INFO     Merging finished
+04-24 18:50 data_merging INFO     ------------------------
+04-24 18:50 data_merging INFO     ------------------------
+04-24 18:50 data_merging INFO     We adjust dates: 
+04-24 18:50 data_merging INFO     Before adjusting dates, our dataframe shape is: (3395, 333) with range dates of 2013-01-01 00:00:00 - 2022-04-21 00:00:00
+04-24 18:50 data_merging INFO     The found starting dates for all our data-sources are: {'Nordpool': Timestamp('2013-01-01 00:00:00'), 'Weather': Timestamp('2013-01-01 00:00:00'), 'Elspot_GloH2OPast': Timestamp('2013-01-01 00:00:00'), 'Yahoo ETFs': Timestamp('2013-01-02 00:00:00'), 'Commodities': Timestamp('2013-01-01 00:00:00')}
+04-24 18:50 data_merging INFO     Based on found start dates, we adjust our start date to: 2013-01-02 00:00:00
+04-24 18:50 data_merging INFO     After adjusting start dates, our dataframe shape is: (3394, 333) with range dates of 2013-01-02 00:00:00 - 2022-04-21 00:00:00
+04-24 18:50 data_merging INFO     The found ending dates for all our data-sources are: {'Nordpool': Timestamp('2022-03-14 00:00:00'), 'Weather': Timestamp('2022-03-17 00:00:00'), 'Elspot_GloH2OPast': Timestamp('2022-04-10 00:00:00'), 'Yahoo ETFs': Timestamp('2022-03-11 00:00:00'), 'Commodities': Timestamp('2022-04-21 00:00:00')}
+04-24 18:50 data_merging INFO     Based on found end dates, we adjust our end date to: 2022-03-11 00:00:00
+04-24 18:50 data_merging INFO     After adjusting end dates, our dataframe shape is: (3356, 333) with range dates of 2013-01-02 00:00:00 - 2022-03-11 00:00:00
+04-24 18:50 data_merging INFO     User chose to limit start dates to: 2014-01-01 00:00:00
+04-24 18:50 data_merging INFO     After adjusting user-start dates, our dataframe shape is: (2992, 333) with range dates of 2014-01-01 00:00:00 - 2022-03-11 00:00:00
+04-24 18:50 data_merging INFO     User chose to limit end dates to: 2022-04-24 18:47:37.606301
+04-24 18:50 data_merging INFO     After adjusting user-end dates, our dataframe shape is: (2992, 333) with range dates of 2014-01-01 00:00:00 - 2022-03-11 00:00:00
+04-24 18:50 data_merging INFO     ------------------------
+04-24 18:50 data_functions INFO     ###############################################################################################################################################################
+04-24 18:50 data_cleaning INFO     Data cleaning
+04-24 18:50 data_functions INFO     ###############################################################################################################################################################
+04-24 18:50 data_cleaning INFO     We found 100.0% of samples/dates with missing data in some of the features.
+04-24 18:50 data_cleaning INFO     On average, we are missing 58 features for each date!
+04-24 18:50 data_cleaning INFO     On average, we are missing 17 dates for each feature!
+04-24 18:50 data_cleaning INFO     Found 95 feature(s) with data in all entries (so no missing data at all): ['SE2_buy_elbas_volume', 'SE2_sell_elbas_volume', 'SE3_buy_elbas_volume', 'SE3_sell_elbas_volume', 'FI_buy_elbas_volume', 'FI_sell_elbas_volume', 'SYS_elspot_prices_EUR', 'SE1_elspot_prices_EUR', 'SE2_elspot_prices_EUR', 'SE3_elspot_prices_EUR', 'SE4_elspot_prices_EUR', 'FI_elspot_prices_EUR', 'DK1_elspot_prices_EUR', 'DK2_elspot_prices_EUR', 'Oslo_elspot_prices_EUR', 'Kr.sand_elspot_prices_EUR', 'Bergen_elspot_prices_EUR', 'Molde_elspot_prices_EUR', 'Tr.heim_elspot_prices_EUR', 'Tromsø_elspot_prices_EUR', 'EE_elspot_prices_EUR', 'LV_elspot_prices_EUR', 'LT_elspot_prices_EUR', 'Up_regulating_prices_EUR', 'Down_regulating_prices_EUR', 'Up.2_regulating_prices_EUR', 'Down.2_regulating_prices_EUR', 'Up.3_regulating_prices_EUR', 'Down.3_regulating_prices_EUR', 'Up.4_regulating_prices_EUR', 'Down.4_regulating_prices_EUR', 'Up.5_regulating_prices_EUR', 'Down.5_regulating_prices_EUR', 'Up.6_regulating_prices_EUR', 'Down.6_regulating_prices_EUR', 'Up.7_regulating_prices_EUR', 'Down.7_regulating_prices_EUR', 'Up.8_regulating_prices_EUR', 'Down.8_regulating_prices_EUR', 'Up.9_regulating_prices_EUR', 'Down.9_regulating_prices_EUR', 'Up.10_regulating_prices_EUR', 'Down.10_regulating_prices_EUR', 'Up.11_regulating_prices_EUR', 'Down.11_regulating_prices_EUR', 'NO1_precipitation', 'NO2_precipitation', 'NO3_precipitation', 'NO4_precipitation', 'NO5_precipitation', 'NO_1_Rain_and_snow_melting', 'NO_2_Rain_and_snow_melting', 'NO_3_Rain_and_snow_melting', 'NO_4_Rain_and_snow_melting', 'NO_5_Rain_and_snow_melting', 'NO1_soil_saturation', 'NO2_soil_saturation', 'NO3_soil_saturation', 'NO4_soil_saturation', 'NO5_soil_saturation', 'NO1_swe', 'NO2_swe', 'NO3_swe', 'NO4_swe', 'NO5_swe', 'NO_1_GloH2O_precipitation_mswx_v100', 'NO_2_GloH2O_precipitation_mswx_v100', 'NO_3_GloH2O_precipitation_mswx_v100', 'NO_4_GloH2O_precipitation_mswx_v100', 'NO_5_GloH2O_precipitation_mswx_v100', 'NO_1_GloH2O_relhum', 'NO_2_GloH2O_relhum', 'NO_3_GloH2O_relhum', 'NO_4_GloH2O_relhum', 'NO_5_GloH2O_relhum', 'NO_1_GloH2O_SpecHum', 'NO_2_GloH2O_SpecHum', 'NO_3_GloH2O_SpecHum', 'NO_4_GloH2O_SpecHum', 'NO_5_GloH2O_SpecHum', 'NO1_GloH2O_SWd', 'NO2_GloH2O_SWd', 'NO3_GloH2O_SWd', 'NO4_GloH2O_SWd', 'NO5_GloH2O_SWd', 'NO_1_GloH2O_temp', 'NO_2_GloH2O_temp', 'NO_3_GloH2O_temp', 'NO_4_GloH2O_temp', 'NO_5_GloH2O_temp', 'NO1_GloH2O_wind_strength', 'NO2_GloH2O_wind_strength', 'NO3_GloH2O_wind_strength', 'NO4_GloH2O_wind_strength', 'NO5_GloH2O_wind_strength']
+04-24 18:50 data_cleaning INFO     Found 5 feature(s) with no data at all (all nans or dots): ['FRE_buy_elbas_volume', 'FRE_sell_elbas_volume', 'ELE_elspot_prices_EUR', 'ELE_Buy_elspot_volumes', 'ELE_Sell_elspot_volumes']
+04-24 18:50 data_cleaning INFO     Found 48 feature(s) with more than 50% of missing data (we will delete these): ['NO1_>_NO2_elbas_initial_capacity', 'NO2_>_NO1_elbas_initial_capacity', 'DK2_>_DE_elbas_initial_capacity', 'DE_>_DK2_elbas_initial_capacity', 'NO1_>_NO5_elbas_initial_capacity', 'NO5_>_NO1_elbas_initial_capacity', 'FI_>_FRE_elbas_initial_capacity', 'FRE_>_FI_elbas_initial_capacity', 'NO3_>_NO5_elbas_initial_capacity', 'NO5_>_NO3_elbas_initial_capacity', 'KT_buy_elbas_volume', 'KT_sell_elbas_volume', 'TBW_buy_elbas_volume', 'TBW_sell_elbas_volume', 'UK_buy_elbas_volume', 'UK_sell_elbas_volume', 'FR_buy_elbas_volume', 'FR_sell_elbas_volume', 'AT_buy_elbas_volume', 'AT_sell_elbas_volume', 'NO2_>_NL_elspot_capacities', 'NL_>_NO2_elspot_capacities', 'NO1A_>_NO2_elspot_capacities', 'NO2_>_NO1A_elspot_capacities', 'NO2_>_DK1A_elspot_capacities', 'DK1A_>_NO2_elspot_capacities', 'NO1A_>_NO5_elspot_capacities', 'NO5_>_NO1A_elspot_capacities', 'NO2A_>_NL_elspot_capacities', 'NL_>_NO2A_elspot_capacities', 'NO2A_>_DE_elspot_capacities', 'DE_>_NO2A_elspot_capacities', 'NO2_>_NO2A_elspot_capacities', 'NO2A_>_NO2_elspot_capacities', 'FRE_elspot_prices_EUR', 'AT_elspot_prices_EUR', 'BE_elspot_prices_EUR', 'DE-LU_elspot_prices_EUR', 'FR_elspot_prices_EUR', 'NL_elspot_prices_EUR', 'FRE_Buy_elspot_volumes', 'FRE_Sell_elspot_volumes', 'EE_BUY_elspot_volumes', 'EE_SELL_elspot_volumes', 'LV_BUY_elspot_volumes', 'LV_SELL_elspot_volumes', 'LT_BUY_elspot_volumes', 'LT_SELL_elspot_volumes']
+04-24 18:50 data_cleaning INFO     Found 184 feature(s) with some missing data but below 50%
+04-24 18:50 data_cleaning INFO     On average, we are missing 6 dates for each feature!
+04-24 18:50 data_cleaning INFO     Based on the criteria of removing features with more than 50% of missing data, we removed a total of 53 feature(s) in our merged dataframe
+04-24 18:50 data_cleaning INFO     Missing data stats after removing features:
+04-24 18:50 data_cleaning INFO     We found 100.0% of samples/dates with missing data in some of the features.
+04-24 18:50 data_cleaning INFO     On average, we are missing 16 features for each date!
+04-24 18:50 data_functions INFO     ###############################################################################################################################################################
+04-24 18:50 data_functions INFO     ###############################################################################################################################################################
+04-24 18:50 data_imputing INFO     Data imputation:
+04-24 18:50 data_functions INFO     ###############################################################################################################################################################
+04-24 18:50 data_imputing INFO     Removing the following 10 features due to too many 6-15 consecutive nans: ['NO1_buy_elbas_volume', 'NO1_sell_elbas_volume', 'NO4_buy_elbas_volume', 'NO4_sell_elbas_volume', 'NO5_buy_elbas_volume', 'NL_buy_elbas_volume', 'NL_sell_elbas_volume', '50HZ_buy_elbas_volume', '50HZ_sell_elbas_volume', 'daily_USD_Commodities_Uranium']
+04-24 18:50 data_imputing INFO     Removing the following 1 features due to too many 16 and above consecutive nans: ['daily_USD_Commodities_Uranium']
+04-24 18:50 data_imputing INFO     We will remove a total of 10 features: ['NO5_buy_elbas_volume', 'NO1_buy_elbas_volume', '50HZ_buy_elbas_volume', 'daily_USD_Commodities_Uranium', '50HZ_sell_elbas_volume', 'NL_sell_elbas_volume', 'NO4_buy_elbas_volume', 'NO1_sell_elbas_volume', 'NO4_sell_elbas_volume', 'NL_buy_elbas_volume']
+04-24 18:50 data_imputing INFO     We perform data imputation based on ffill
+04-24 18:50 data_imputing INFO     After ffill, we still have the following features with NaNs:
+04-24 18:50 data_imputing INFO     DK2_>_50HZ_elbas_initial_capacity    329
+50HZ_>_DK2_elbas_initial_capacity    329
+SE4_>_LT_elbas_initial_capacity      707
+LT_>_SE4_elbas_initial_capacity      707
+NO2_sell_elbas_volume                  1
+LT_buy_elbas_volume                    5
+LT_sell_elbas_volume                   5
+AMP_buy_elbas_volume                 329
+AMP_sell_elbas_volume                329
+TTG_buy_elbas_volume                 329
+TTG_sell_elbas_volume                329
+NO1A_>_NO1_elspot_capacities         373
+NO1_>_NO1A_elspot_capacities         373
+NO3_>_NO5_elspot_capacities          796
+NO5_>_NO3_elspot_capacities          796
+Adj_Close_SPGI                         1
+Adj_Close_XWD                          1
+daily_USD_Commodities_Coal             1
+04-24 18:50 data_imputing INFO     We removed 12 feature(s) that have more than 100 nans after ffill: ['DK2_>_50HZ_elbas_initial_capacity', '50HZ_>_DK2_elbas_initial_capacity', 'SE4_>_LT_elbas_initial_capacity', 'LT_>_SE4_elbas_initial_capacity', 'AMP_buy_elbas_volume', 'AMP_sell_elbas_volume', 'TTG_buy_elbas_volume', 'TTG_sell_elbas_volume', 'NO1A_>_NO1_elspot_capacities', 'NO1_>_NO1A_elspot_capacities', 'NO3_>_NO5_elspot_capacities', 'NO5_>_NO3_elspot_capacities']
+04-24 18:50 data_imputing INFO     After removing extra features, we still have the following features with NaNs:
+04-24 18:50 data_imputing INFO     NO2_sell_elbas_volume         1
+LT_buy_elbas_volume           5
+LT_sell_elbas_volume          5
+Adj_Close_SPGI                1
+Adj_Close_XWD                 1
+daily_USD_Commodities_Coal    1
+04-24 18:50 data_imputing INFO     We plot the first entries of our features with nans:
+04-24 18:50 data_imputing INFO          NO2_sell_elbas_volume  LT_buy_elbas_volume  LT_sell_elbas_volume  Adj_Close_SPGI  Adj_Close_XWD  daily_USD_Commodities_Coal
+365                    NaN                  NaN                   NaN             NaN            NaN                         NaN
+366                   35.2                  NaN                   NaN       71.010025      28.024050                       57.26
+367                  201.0                  NaN                   NaN       70.818245      28.067875                       57.14
+368                  965.5                  NaN                   NaN       70.818245      28.067875                       57.14
+369                   22.0                  NaN                   NaN       70.818245      28.067875                       57.14
+370                   53.0                 33.0                  14.0       70.672104      28.067875                       56.73
+371                   77.0                 33.0                 218.0       71.293144      28.549990                       55.98
+372                  119.0                 33.0                 218.0       71.183540      28.541229                       57.55
+04-24 18:50 data_imputing INFO     Found at least one feature with first 5 days with missing data. We remove those 5 first dates to avoid looking into future to impute data!
+04-24 18:50 data_imputing INFO     No found NaNs after performing imputation :)
+04-24 18:50 data_functions INFO     ###############################################################################################################################################################
+04-24 18:50 data_functions INFO     Dataframe with all features merged and stored locally as csv!
+04-24 18:50 __main__     INFO     Features with all data-sources combined into single dataframe and stored locally at path ../../data/processed_data/energy/
+04-24 18:50 __main__     INFO     Final dataframe shape: (2987, 258)
+04-24 18:50 __main__     INFO     Data processing finalized.
+04-24 18:50 __main__     INFO     Final dataframe contains data dates from 2014-01-06 00:00:00 to 2022-03-11 00:00:00
